@@ -1,0 +1,26 @@
+{
+  "name": "Youtube Title Remover",
+  "description": "Remove youtube page title and video title in page!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/yt_16x16.png",
+      "32": "images/yt_32x32.png",
+      "48": "images/yt_48x48.png",
+      "128": "images/yt_128x128.png"
+    }
+  },
+  "icons": {
+    "16": "images/yt_16x16.png",
+    "32": "images/yt_32x32.png",
+    "48": "images/yt_48x48.png",
+    "128": "images/yt_128x128.png"
+  }
+}
