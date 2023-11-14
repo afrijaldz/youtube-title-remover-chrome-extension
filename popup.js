@@ -29,5 +29,5 @@ button.addEventListener("click", async () => {
 
 function removeYoutubeTitle() {
   document.title = "a";
-  document.querySelector("h1.title").children[0].innerText = "";
+  document.querySelector("#title h1 yt-formatted-string").innerText = "";
 }
